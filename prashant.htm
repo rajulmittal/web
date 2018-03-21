@@ -1,0 +1,469 @@
+<html>
+<head>
+<style>
+body
+{
+padding:0px;
+margin:0px;
+background-attachment:fixed;
+}
+#header
+
+{
+background-color:rgba(231,194,58,0.5);
+width:100%;
+height:3in;
+margin-top:-20px;
+}
+#header img
+{
+border-radius:100%;
+padding:50px;
+float:left;
+margin-top:-10px;
+margin-left:-10px;
+}
+#header h1
+{
+ 
+float:left;
+padding:40px;
+font-size:60px;
+font-family:Comic Sans MS;
+color:brown;
+}
+input.sfield
+{
+float:left;
+
+  background-color:#fff;
+background-image:url(search-icon.png);
+background-position:0px 0px;
+padding-left:12px;
+background-repeat:no-repeat;  
+    border-color:brown;
+    border-style:solid;
+    border-width:2px 2px 2px;
+    font-size:15px;
+	font-weight:bold;
+	font-family:arial;
+    margin-top:20px;
+    height:40px;
+	width:400px;
+}
+
+input.sbutton
+{
+margin:7px;
+margin-top:25px;
+
+    background-color:#d91515;
+    height:50px;
+    border:none;    
+    color:white;
+    position:relative;
+    left:-6px;
+    bottom:-1px;
+    height:28px;
+	margin-left:20px;
+	
+}
+input.field
+{
+float:left;
+
+  background-color:#fff;
+
+padding-left:5px;
+background-repeat:no-repeat;  
+    border-color:brown;
+    border-style:solid;
+    border-width:2px 2px 2px;
+    font-size:15px;
+	font-weight:bold;
+	font-family:arial;
+    margin-top:75px;
+    height:30px;
+	width:200px;
+}
+
+input.sutton
+{
+margin:7px;
+margin-top:75px;
+
+    background-color:#d91515;
+    height:50px;
+    border:none;    
+    color:white;
+    position:relative;
+    left:-6px;
+    bottom:-1px;
+    height:28px;
+	margin-left:20px;
+	
+}
+input.cart
+{
+background-image:url(cart.png);
+background-repeat:no-repeat;
+background-position:80px 0px;
+padding-left:10px;
+width:130px;
+height:30px;
+ background-color:#fff;
+border-color:brown;
+    border-style:solid;
+    border-width:2px 2px 2px;
+    font-size:15px;
+	font-weight:bold;
+	font-family:Comic Sans MS;
+float:right;
+margin-right:-170px;
+margin-top:-35px;
+}
+
+#ln 
+{
+background-color:#d91515;
+
+margin-right:-160px;
+margin-top:-95px;
+float:right;
+}
+#ln a
+{
+padding:4px;
+font-weight:lighter;
+font-family:arial;
+font-size:15px;
+color:white;
+text-decoration:none;
+display:inline-block;
+}
+#lin
+{
+
+height:20px;
+margin-right:-160px;
+margin-top:-220px;
+float:right;
+}
+#lin a
+{
+font-family:Arial;
+font-size:15px;
+text-decoration:none;
+display:inline-block;
+color:brown;
+
+}
+
+#bar
+{
+
+height:20px;
+margin-right:-130px;
+margin-top:-220px;
+float:right;
+}
+#bar ul 
+{
+
+padding-top:80px;
+padding-right:80px;
+margin-left:-630px;
+}
+#bar ul li
+{
+
+display:inline-block;
+}
+#bar ul a
+{
+font-family:Arial;
+font-size:17px;
+text-decoration:none;
+
+color:brown;
+display:inline-block;
+
+}
+#nav 
+{
+background-color:transparent;
+
+display:inline-block;
+height:12in;
+width:100%;
+margin-top:-62px;
+}
+#nav img
+{
+margin-top:60px;
+padding-left:30px;
+float:left;
+padding-top:10px;
+border-radius:110px;
+height:40px;
+width:40px;
+}
+#content h1
+{
+text-transform:uppercase;
+font-weight:normal;
+padding-left:37px;
+font-size:38px;
+color:white;
+}
+
+#content #left ul
+{
+margin:10px;
+
+}
+
+#content #left ul li
+{
+list-style-type:circle;
+line-height:32px;
+
+}
+
+#content #left ul li a
+{
+
+text-decoration:none;
+text-align:left;
+color:white;
+font-size:16px;
+}	
+
+#content #left ul li a:hover
+{
+text-decoration:underline;
+color:gray;
+}
+#content #left
+{
+float:left;
+height:5in;
+width:350px;
+background-color:rgba(243,201,45,0.5);
+border-radius:8px;
+border:solid 1px white;
+margin-left:30px;
+}
+#footer
+{
+
+width:95%;
+height:3.3in;
+background-color:rgba(243,201,45,0.5);
+margin-top:-520px;
+margin-left:30px;
+border-radius:8px;
+border:solid 1px white;
+}
+
+#footer p
+{
+text-transform:uppercase;
+line-height:32px;
+font-weight:normal;
+padding-left:38px;
+padding-right:38px;
+text-align:justify;
+color:white;
+}
+
+#footer #left h1
+{
+text-transform:uppercase;
+font-weight:normal;
+padding-left:37px;
+font-size:38px;
+color:white;
+
+}
+#footer #left ul li
+{
+list-style:none;
+line-height:32px;
+
+}
+
+#footer #left ul li a
+{
+
+text-decoration:none;
+text-align:left;
+color:white;
+font-size:16px;
+}	
+
+#footer #left ul li a:hover
+{
+text-decoration:underline;
+color:gray;
+}
+#footer #right
+{
+float:left;
+margin-top:-303px;
+margin-left:400px;
+}
+#footer #right h1
+{
+text-transform:uppercase;
+font-weight:normal;
+padding-left:37px;
+font-size:38px;
+color:white;
+}
+#footer #right ul
+{
+padding-left:70px;
+}
+#footer #right ul li
+{
+list-style:none;
+}
+#footer #right ul li a
+{
+text-decoration:none;
+text-align:left;
+color:white;
+font-size:16px;
+}
+#footer #rig
+{
+margin-top:-303px;
+float:right;
+margin-right:50px;
+}
+#footer #rig h1
+{
+text-transform:uppercase;
+font-weight:normal;
+padding-left:37px;
+font-size:38px;
+color:white;
+}
+#footer #rig a img
+{
+margin-left:70px;
+padding:5px;
+height:0.7in;
+width:0.7in;
+}
+#foot p
+{
+color:black;
+margin-left:500px;
+}
+</style>
+</head>
+<body background="wall.jpg">
+<div id="header">
+<img src="beer1.png" height="200in" width="200in" >
+<h1> URBAN THEKA  <h1>
+<form id="search" action="" method="get">
+
+        <input type="text" name="search" class="sfield"  value="&nbsp &nbsp Search what are you looking for on Urban Theka..."/>
+		
+        <input type="submit" value="Search" class="sbutton"/>
+</form>
+<div id="ln">
+<a href="">	SIGN UP</a>
+
+</div>
+<div id="lin">
+<a href="">ADVERTISE</a>
+<a href="">DOWNLOAD APP</a>
+<a href="">TRACK ORDER</a>
+</div>
+<div id="bar">
+<ul>
+<li><a href="">Home &nbsp &nbsp | </a></li>
+<li><a href="">&nbsp My Account &nbsp &nbsp |</a></li>
+<li><a href="">&nbsp Vendor's Sections</a></li>
+</ul>
+</div>
+<form id="cart" action="" method="get">
+
+        <input type="text" name="search" class="cart"  value="My Cart"/>
+		</form>
+</div>
+<div id="nav">
+<img src="location.jpeg" >
+<form id="search" action="" method="get">
+
+        <input type="text" name="search" class="field"  value="&nbsp &nbsp Know Your Location.."/>
+		
+        <input type="submit" value="Search" class="sutton"/>
+</form>
+
+<div id="content">
+	<div id="left" >
+		<h1>CATEGORIES</h1>
+		<ul>
+		<li><a href="">MADE IN INDIA</a></li>
+		<li><a href="">INTERNATIONAL</a></li>
+		<li><a href="">BEER</a></li>
+		<li><a href="">LIQUOR</a></li>
+		<li><a href="">BRANDY</a></li>
+		<li><a href="">BREZZER</a></li>
+		<li><a href="">VODKA</a></li>
+		<li><a href="">TEQUILA</a></li>
+		<li><a href="">WHISKY</a></li>
+		<li><a href="">RUM</a></li>
+		<li><a href="">WINE</a></li>
+		</ul>
+		
+		
+	</div>
+</div>
+</div>
+<div id="footer">
+<div id="left">
+<h1>Learn About Us</h1>
+<ul>
+<li><a href="">MAKE MONEY WITH  US</a></li>
+		<li><a href="">CAREER</a></li>
+		<li><a href="">OFFER</a></li>
+		<li><a href="">BULK ORDER</a></li>
+		<li><a href="">SELL WITH US</a></li>
+		<li><a href="">CALL US</a></li>
+		</ul>
+</div>
+<div id="right">
+<h1>POPULAR CITIES</h1>
+<ul>
+		<li><a href="">PUNE</a></li>
+		<li><a href="">BANGALORE</a></li>
+		<li><a href="">HYDERABAD</a></li>
+		<li><a href="">CHENNAI</a></li>
+		<li><a href="">DELHI</a></li>
+		<li><a href="">MUMBAI</a></li>
+		<li><a href="">GURGAON</a></li>
+		<li><a href="">KOLKATA</a></li>
+		<li><a href="">NOIDA</a></li>
+		<li><a href="">NAGPUR</a></li>
+		<li><a href="">COIMBATORE</a></li>
+		</ul>
+</div>
+<div id="rig">
+<h1>CONNECT WITH URBAN THEKA</h1>
+<a href=""><img src="whatsapp.png"></a>
+<a href=""><img src="facebook.png"></a>
+<a href=""><img src="insta.jpg"></a>
+<a href=""><img src="twitter.png"></a>
+</div>
+
+</div>
+<div id="foot">
+<p><b>copyright (c) 2017 sitename.com. all rights reserved. photo by urban theka..</b> </p>
+</div>
+</body>
+</html>
